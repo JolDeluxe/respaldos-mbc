@@ -1,0 +1,31 @@
+# Dependencias y compilación
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Secretos y configuración específica de cada instalación
+.env
+.env.*
+!.env.example
+config/databases.json
+
+# Datos operativos (logs, estado, temporales)
+runtime/
+logs/
+temp/
+.local-backups/
+
+# Archivos temporales y respaldos generados
+*.partial
+*.partial-db
+*.cnf
+*.sql.gz
+*.sqlite.gz
+*.manifest.json
+!config/databases.example.json
+Respaldos/
+Diarios/
+
+# Misc
+*.log
+.DS_Store

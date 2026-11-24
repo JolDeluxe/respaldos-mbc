@@ -1,0 +1,24 @@
+{
+  "mysql": [
+    {
+      "id": "principal",
+      "name": "MySQL 8.4 principal",
+      "enabled": true,
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "mbc_backup",
+      "passwordEnv": "MYSQL_PRINCIPAL_PASSWORD",
+      "autoDiscover": true,
+      "excludeSchemas": [],
+      "namespaced": false
+    }
+  ],
+  "sqlite": [
+    {
+      "id": "kpis",
+      "name": "KPIs (kpi.db)",
+      "path": "C:\\Servidor\\BasesDatos\\SQLite\\KPIs\\kpi.db",
+      "enabled": true
+    }
+  ]
+}
